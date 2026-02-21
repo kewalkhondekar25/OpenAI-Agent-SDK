@@ -6,7 +6,7 @@ import weatherAgent from './Agents/WeatherAgent'
 const main = async () => {
     try {
         // const result = await run(helloAgent, 'Hello!')
-        const result = await run(weatherAgent, 'What is the weather in Pune?')
+        const result = await run(weatherAgent, 'What is the weather in chicago?')
         console.log(result.finalOutput)
     } catch (error) {
         console.error(error)
